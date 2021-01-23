@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
   database: api_development
-  username: ravi
+  username: nirmala
   password: 123456
 
   # The specified database role being used to connect to postgres.
@@ -60,7 +60,7 @@ development:
 test:
   <<: *default
   database: api_test
-  username: ravi
+  username: nirmala
   password: 123456
 
 # As with config/credentials.yml, you never want to store sensitive information,

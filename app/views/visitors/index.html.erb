@@ -1,4 +1,5 @@
 <h3>Welcome</h3>
+🔥 
 <% if user_signed_in? %>
   <% if current_user.admin? %>
     <h3>Admin</h3>
@@ -11,7 +12,15 @@
   <h3>Purchase the book.</h3>
   <article>
     <label class="amount">
-      <%= image_tag 'rubyonrails.png', size: '60x60' %>
+      <%= image_tag 'https://bhagavadgita.io/static/images/gita/bhagavadgita-6.jpg', size: '100x100' %><br><br>
+
+
+      <%= image_tag 'https://akm-img-a-in.tosshub.com/sites/rd/resources/202003/untitled1_1583332913_1200x675.jpeg?size=684:384', size: '100x100' %>
+
+
+       
+
+
       <div><%= Rails.application.secrets.product_title %></div>
       <span><%= number_to_currency(Rails.application.secrets.product_price.to_f/100) %></span>
     </label>
